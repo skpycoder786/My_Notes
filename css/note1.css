@@ -1,59 +1,77 @@
 body{
-	padding: 1%;
-	margin: 1%;
+   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', 'Arial', sans-serif;
+   font-weight: 400;
+   line-height: 18px;
+   font-size: 14px;
+   background-color: #808080 ;
+}*{
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	position: absolute;
+	padding-top: 140px;
+   margin: -4px;
+   display: flex;
+   flex-flow: row wrap;
+   align-items: flex-start;
+}
+
+article {
+	background: #fcc;
+	display: inline-block;
+	width: 200px;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	cursor: pointer;
+	position: relative;
+	margin: 4px;
+	min-height: 160px;
+}
+
+.edit {
+	white-space: pre-line;
+	border: none;
+	resize: none;
+	background: transparent;
+	display: block;
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	cursor: inherit;
+	font: inherit;
+	min-height: 160px;
+}
+
+.edit:focus {
+	cursor: text;
+}
+
+header, footer {
+	position:absolute;
+	background-color: #FFA500 ;
+	width: 100%; 
 }
 
 header{
-	background-color: #CFCBCB ;
-	background-image: url("../images/flywheel.jpg");
-	padding: 1%; 
+	padding-top: 20px;
+	height: 90px;
 }
-
-h1{
+header h1{
+	padding-top: 40px;
 	text-align: center ;
 	text-transform: uppercase;
 	color: #FFFFFF ;
 }
 
-nav a{
-	background-color: rgba(255, 255, 255,0.4);
-	color: #000000;
-	text-align: center;
-	font-weight: bold;
-	width: 20%;
-	display: inline-block;
-	margin: 1%;
-	padding: 1%;
-	text-decoration: none;
-	border-radius: 5%;
-}
-.active{ 
-	background-color: rgba(255, 255, 255,1);
-	color: rgb(128, 0, 128);
+footer {
+   bottom:0;
+   height:60px;
 }
 
-.left{
-	display: inline-block;
-	background-color: #287905;
-	float: left;
-	width: 15%;
-	height: 100vh;			/*view hight*/
-	padding: 2% 2% 10% 2%;
 
-}
 
-.right{
-	display: inline-block;
-	width: 75%;
-	padding: 2% 2% 10% 2%;
-}
-
-img{
-	height: auto;
-	width: 100%;
-	border: solid 2px #000000;
-	margin: 8% auto;
-}
 
 
 
