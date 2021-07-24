@@ -70,6 +70,44 @@ footer {
    height:60px;
 }
 
+.title{
+	font-size: 140%;
+	font-weight: bold;
+	height: 30px;
+	width: 70%;
+	background: none;
+	border: none;
+	resize: none;
+}
+.note {
+	white-space: pre-line;
+	border: none;
+	resize: none;
+	background: transparent;
+	display: block;
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	cursor: inherit;
+	font: inherit;
+	min-height: 160px;
+}
+
+.note:focus {
+	cursor: text;
+}
+
+.close{
+	padding: 1px 3px;
+	margin: 10px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+	height: 24px;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+}
 
 
 
